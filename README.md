@@ -14,7 +14,11 @@ Situs pembaca PDF sederhana dan elegan yang dibangun dengan Next.js, memungkinka
 
 ## Screenshots
 
+> Halaman Depan
 ![home-page](public/home.png)
+
+> Halaman Pengaturan
+![home-page](public/settings.png)
 
 ## Instalasi
 
