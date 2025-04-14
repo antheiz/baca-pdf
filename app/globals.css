@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 255, 255, 255;
+  --foreground: 33, 33, 33;
+  --muted: 240, 240, 240;
+  --muted-foreground: 115, 115, 115;
+  --border: 229, 229, 229;
+  --accent: 245, 245, 245;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: 255, 255, 255;
+    --foreground: 33, 33, 33;
+    --muted: 240, 240, 240;
+    --muted-foreground: 115, 115, 115;
+    --border: 229, 229, 229;
+    --accent: 245, 245, 245;
+  }
+}
+
+body {
+  color: rgb(var(--foreground));
+  background: rgb(var(--background));
+}
+
+.pdf-thumbnail {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.pdf-thumbnail canvas {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.pdf-embed {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
