@@ -15,9 +15,10 @@ Situs pembaca PDF sederhana dan elegan yang dibangun dengan Next.js, memungkinka
 ## Screenshots
 
 <p float="left">
-  <img src="public/home.png" alt="home-page" width="45%" />
-  <img src="public/settings.png" alt="settings-page" width="45%" />
+  <img src="public/home.png" alt="home-page" width="45%" style="border: 2px solid gray;" />
+  <img src="public/settings.png" alt="settings-page" width="45%" style="border: 2px solid gray;" />
 </p>
+
 
 ## Instalasi
 
