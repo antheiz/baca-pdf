@@ -94,7 +94,7 @@ export default function Settings() {
               onChange={(e) => setPdfDirectory(e.target.value)}
               className="border-border"
             />
-            <p className="text-sm text-muted-foreground">Jalur absolut ke file PDF Anda pada sistem Linux Anda.</p>
+            <p className="text-sm text-muted-foreground">Jalur absolut ke file PDF pada perangkat Anda.</p>
           </div>
 
           <div className="space-y-2">
